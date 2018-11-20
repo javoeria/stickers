@@ -4,113 +4,453 @@
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "Cuppy",
-      "publisher": "Jane Doe",
-      "tray_image_file": "tray_Cuppy.png",
+      "name": "La Liga",
+      "publisher": "Javier Rosales",
+      "tray_image_file": "ESP.webp",
       "publisher_email":"",
       "publisher_website": "",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "01_Cuppy_smile.webp",
+          "image_file": "Real_Madrid.webp",
           "emojis": ["☕","🙂"]
         },
         {
-          "image_file": "02_Cuppy_lol.webp",
+          "image_file": "Barcelona.webp",
           "emojis": ["😄","😀"]
         },
         {
-          "image_file": "03_Cuppy_rofl.webp",
+          "image_file": "Atletico.webp",
           "emojis": ["😆","😂"]
         },
         {
-          "image_file": "04_Cuppy_sad.webp",
+          "image_file": "Valencia.webp",
           "emojis": ["😩","😰"]
         },
         {
-          "image_file": "05_Cuppy_cry.webp",
+          "image_file": "Sevilla.webp",
           "emojis": ["😭","💧"]
         },
         {
-          "image_file": "06_Cuppy_love.webp",
+          "image_file": "Villarreal.webp",
           "emojis": ["😍","♥"]
         },
         {
-          "image_file": "07_Cuppy_hate.webp",
+          "image_file": "Espanyol.webp",
           "emojis": ["💔","👎"]
         },
         {
-          "image_file": "08_Cuppy_lovewithmug.webp",
+          "image_file": "Athletic.webp",
           "emojis": ["😍","💑"]
         },
         {
-          "image_file": "09_Cuppy_lovewithcookie.webp",
+          "image_file": "Real_Betis.webp",
           "emojis": ["😘","🍪"]
         },
         {
-          "image_file": "10_Cuppy_hmm.webp",
+          "image_file": "Real_Sociedad.webp",
           "emojis": ["🤔","😐"]
         },
         {
-          "image_file": "11_Cuppy_upset.webp",
+          "image_file": "Real_Valladolid.webp",
           "emojis": ["😱","😵"]
         },
         {
-          "image_file": "12_Cuppy_angry.webp",
+          "image_file": "Alaves.webp",
           "emojis": ["😡","😠"]
         },
         {
-          "image_file": "13_Cuppy_curious.webp",
+          "image_file": "Levante.webp",
           "emojis": ["❓","🤔"]
         },
         {
-          "image_file": "14_Cuppy_weird.webp",
+          "image_file": "Getafe.webp",
           "emojis": ["🌈","😜"]
         },
         {
-          "image_file": "15_Cuppy_bluescreen.webp",
+          "image_file": "Girona.webp",
           "emojis": ["💻","😩"]
         },
         {
-          "image_file": "16_Cuppy_angry.webp",
+          "image_file": "Celta.webp",
           "emojis": ["😡","😤"]
         },
         {
-          "image_file": "17_Cuppy_tired.webp",
+          "image_file": "Eibar.webp",
           "emojis": ["😩","😨"]
         },
         {
-          "image_file": "18_Cuppy_workhard.webp",
+          "image_file": "Leganes.webp",
           "emojis": ["💻","🌃"]
         },
         {
-          "image_file": "19_Cuppy_shine.webp",
+          "image_file": "Rayo_Vallecano.webp",
           "emojis": ["🎉","✨"]
         },
         {
-          "image_file": "20_Cuppy_disgusting.webp",
+          "image_file": "Huesca.webp",
           "emojis": ["🤮","👎"]
+        }
+      ]
+    },
+    {
+      "identifier": "2",
+      "name": "Premier League",
+      "publisher": "Javier Rosales",
+      "tray_image_file": "ENG.webp",
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "Manchester_City.webp",
+          "emojis": ["☕","🙂"]
         },
         {
-          "image_file": "21_Cuppy_hi.webp",
-          "emojis": ["🖐","🙋"]
+          "image_file": "Manchester_United.webp",
+          "emojis": ["😄","😀"]
         },
         {
-          "image_file": "22_Cuppy_bye.webp",
-          "emojis": ["🖐","👋"]
+          "image_file": "Liverpool.webp",
+          "emojis": ["😆","😂"]
         },
         {
-          "image_file": "23_Cuppy_greentea.webp",
-          "emojis": ["🍵","😌"]
+          "image_file": "Chelsea.webp",
+          "emojis": ["😩","😰"]
         },
         {
-          "image_file": "24_Cuppy_phone.webp",
-          "emojis": ["📱","😦"]
+          "image_file": "Arsenal.webp",
+          "emojis": ["😭","💧"]
         },
         {
-          "image_file": "25_Cuppy_battery.webp",
-          "emojis": ["🔋","😵"]
+          "image_file": "Tottenham.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "Leicester.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "Watford.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "Everton.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "Bournemouth.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "Wolves.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "Brighton.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "West_Ham.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "Newcastle.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "Burnley.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "Crystal_Palace.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "Southampton.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Cardiff_City.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "Huddersfield_Town.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "Fulham.webp",
+          "emojis": ["🤮","👎"]
+        }
+      ]
+    },
+    {
+      "identifier": "3",
+      "name": "Serie A",
+      "publisher": "Javier Rosales",
+      "tray_image_file": "ITA.webp",
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "Juventus.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "Napoli.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "Internazionale.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "Lazio.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "Milan.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "Roma.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "Sassuolo.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "Atalanta.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "Fiorentina.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "Torino.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "Parma.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "Sampdoria.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "Cagliari.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "Genoa.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "SPAL.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "Bologna.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "Udinese.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Empoli.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "Frosinone.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "Chievo.webp",
+          "emojis": ["🤮","👎"]
+        }
+      ]
+    },
+    {
+      "identifier": "4",
+      "name": "Bundesliga",
+      "publisher": "Javier Rosales",
+      "tray_image_file": "GER.webp",
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "Borussia_Dortmund.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "Bayern_Munchen.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "Werder_Bremen.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "Borussia_Monchengladbach.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "Schalke_04.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "Eintracht_Frankfurt.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "Hoffenheim.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "RB_Leipzig.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "Bayer_04_Leverkusen.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "Mainz_05.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "Augsburg.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "Freiburg.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "Wolfsburg.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "Stuttgart.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "Nurnberg.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "Hannover_96.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "Fortuna_Dusseldorf.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Hertha_BSC.webp",
+          "emojis": ["💻","🌃"]
+        }
+      ]
+    },
+    {
+      "identifier": "5",
+      "name": "Ligue 1",
+      "publisher": "Javier Rosales",
+      "tray_image_file": "FRA.webp",
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "Paris_Saint_Germain.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "Marsella.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "Lyon.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "Montpellier.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "Saint_Etienne.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "Lille.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "Nice.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "Strasbourg.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "Stade_de_Reims.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "Nantes.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "Girondins.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "Stade_Rennais.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "Angers.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "Nimes.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "Toulouse.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "Monaco.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "Stade_Malherbe_Caen.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "Dijon.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "Amiens.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "Guingamp.webp",
+          "emojis": ["🤮","👎"]
         }
       ]
     }
