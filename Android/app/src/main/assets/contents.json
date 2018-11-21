@@ -5,7 +5,7 @@
     {
       "identifier": "1",
       "name": "La Liga",
-      "publisher": "Javier Rosales",
+      "publisher": "javoeria",
       "tray_image_file": "ESP.webp",
       "publisher_email":"",
       "publisher_website": "",
@@ -97,7 +97,7 @@
     {
       "identifier": "2",
       "name": "Premier League",
-      "publisher": "Javier Rosales",
+      "publisher": "javoeria",
       "tray_image_file": "ENG.webp",
       "publisher_email":"",
       "publisher_website": "",
@@ -189,7 +189,7 @@
     {
       "identifier": "3",
       "name": "Serie A",
-      "publisher": "Javier Rosales",
+      "publisher": "javoeria",
       "tray_image_file": "ITA.webp",
       "publisher_email":"",
       "publisher_website": "",
@@ -281,7 +281,7 @@
     {
       "identifier": "4",
       "name": "Bundesliga",
-      "publisher": "Javier Rosales",
+      "publisher": "javoeria",
       "tray_image_file": "GER.webp",
       "publisher_email":"",
       "publisher_website": "",
@@ -365,7 +365,7 @@
     {
       "identifier": "5",
       "name": "Ligue 1",
-      "publisher": "Javier Rosales",
+      "publisher": "javoeria",
       "tray_image_file": "FRA.webp",
       "publisher_email":"",
       "publisher_website": "",
