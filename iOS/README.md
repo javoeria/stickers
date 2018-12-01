@@ -1,5 +1,8 @@
 #  iOS Stickers Apps for WhatsApp
 
+### IMPORTANT NOTICE ABOUT iOS APPS 
+Apple will reject or remove your sticker app from the App Store if it uses the UI template that WhatsApp provides. When creating an iOS sticker app, please make sure to develop a unique user interface with your own styling to comply with Apple's App Store guidelines. Do *not* use our sample app's UI as is, please significantly modify the UI before submitting. We are still working on updating our full set of documentation and our FAQ to reflect this.
+
 
 ## Overview
 If you would like to design your own stickers for WhatsApp, you can package them in an iOS app. You will need to distribute your app via the App Store. Users who download and install your sticker app will be able to add your stickers to their WhatsApp sticker picker/tray, and start sending those stickers from within WhatsApp. A separate app is necessary and it will reside on your phone's home screen just like any other app. Once you add the stickers from the app to WhatsApp, you can remove or uninstall the app from your phone and continue to send those stickers. Stickers on WhatsApp must be legal, authorized, and acceptable.  Learn more about acceptable use of our services at <https://www.whatsapp.com/legal/#terms-of-service>.
@@ -63,7 +66,7 @@ In Xcode, you must also modify the 'sticker_packs.wasticker' file. Replace the v
 * `identifier`: The identifier should be unique and can be alphanumeric: a-z, A-Z, 0-9, and the following characters are also allowed "_", "-", "." and " ". The identifier should be less than 128 characters.
 * Replace the `image_file` value with the file name of your sticker image. It must have both the file name and extension. The ordering of the files in the JSON will dictate the ordering of your stickers in your pack. 
 * `ios_app_store_link` and `android_play_store_link` (optional fields): here you can put the URL to your sticker app in the App Store as well as a URL to your sticker app in the Google Play Store (if you have an Android version of your sticker app). If you provide these URLs, users who receive a sticker from your app in WhatsApp can tap on it to view your sticker app in the respective App Stores. To get your App Store link before you publish your app, refer to the instructions here: https://stackoverflow.com/questions/4137426/get-itunes-link-for-app-before-submitting.
-* `emoji` (optional): add up to a maximum of three emoji for each sticker file. Select emoji that best describe or represent that sticker file. For example, if the sticker is portraying love, you may choose to add a heart emoji like 💕. If your sticker portrays pizza, you may want to add the pizza slice emoji 🍕. In the future, WhatsApp will support a search function for stickers and tagging your sticker files with emoji will enable that. The sticker picker/tray in WhatsApp today already categorizes stickers into emotion categories (love, happy, sad, and angry) and it does this based on the emoji you tag your stickers with. 
+* `emojis` (optional): add up to a maximum of three emoji for each sticker file. Select emoji that best describe or represent that sticker file. For example, if the sticker is portraying love, you may choose to add a heart emoji like 💕. If your sticker portrays pizza, you may want to add the pizza slice emoji 🍕. In the future, WhatsApp will support a search function for stickers and tagging your sticker files with emoji will enable that. The sticker picker/tray in WhatsApp today already categorizes stickers into emotion categories (love, happy, sad, and angry) and it does this based on the emoji you tag your stickers with. 
 
 The following fields are optional: `ios_app_store_link`, `android_app_store_link`, `publisher_website`, `privacy_policy_website`, `license_agreement_website`, `emoji`
 
@@ -76,7 +79,7 @@ A couple tips:
 * You may continue to use the underlying code of the sample app but make sure to modify the user interface
 * The UI folder in the sample app containst most of the user interface code in the sample app.
 * Do not simply reskin the sample app. In other words, changing the background color, button color, or other minor elements of the user interface will not be sufficient.
-* xCode provides some tools to make building layouts and UI a bit simpler. See https://developer.apple.com/xcode/interface-builder/ for more information.
+* Xcode provides some tools to make building layouts and UI a bit simpler. See https://developer.apple.com/xcode/interface-builder/ for more information.
 * You should also consider adding additional functionality to your app (sharing stickers to other apps, to iMessage, etc) or any other features that you deem suitable. This will assist you in passing Apple's App Store review.
 
 ### Required before you publish your app
