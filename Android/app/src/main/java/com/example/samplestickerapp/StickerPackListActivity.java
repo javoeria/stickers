@@ -36,6 +36,10 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         packRecyclerView = findViewById(R.id.sticker_pack_list);
         stickerPackList = getIntent().getParcelableArrayListExtra(EXTRA_STICKER_PACK_LIST_DATA);
         showStickerPackList(stickerPackList);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle(getResources().getQuantityString(R.plurals.title_activity_sticker_packs_list, stickerPackList.size()));
+        }
+
     }
 
     @Override
@@ -77,9 +81,11 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         int firstVisibleItemPosition = packLayoutManager.findFirstVisibleItemPosition();
         StickerPackListItemViewHolder viewHolder = (StickerPackListItemViewHolder) packRecyclerView.findViewHolderForAdapterPosition(firstVisibleItemPosition);
         if (viewHolder != null) {
-            final int max = Math.max(viewHolder.imageRowView.getMeasuredWidth() / previewSize, 1);
-            int numColumns = Math.min(STICKER_PREVIEW_DISPLAY_LIMIT, max);
-            allStickerPacksListAdapter.setMaxNumberOfStickersInARow(numColumns);
+            final int widthOfImageRow = viewHolder.imageRowView.getMeasuredWidth();
+            final int max = Math.max(widthOfImageRow / previewSize, 1);
+            int maxNumberOfImagesInARow = Math.min(STICKER_PREVIEW_DISPLAY_LIMIT, max);
+            int minMarginBetweenImages = (widthOfImageRow - maxNumberOfImagesInARow * previewSize) / (maxNumberOfImagesInARow - 1);
+            allStickerPacksListAdapter.setImageRowSpec(maxNumberOfImagesInARow, minMarginBetweenImages);
         }
     }
 
